@@ -1,0 +1,120 @@
+/* Global Styles */
+html {
+    font-size: 62.5%;
+    font-family: 'Helvetica', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page Styles */
+  .home {
+    background-color: #F2F2F2;
+    color: #333;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  
+  .hero h1 {
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero button:hover {
+    background-color: #FFF;
+    color: #333;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+
+  .heading {
+    color: #333;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 3%;
+  }
+  
+  .service {
+    width: 30%;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 400px;
+    height: 260px;
+    margin-bottom: 2rem;
+  }
+  
+  .service h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service p {
+    font-size: 1.6rem;
+  }
+  
+
+  a {
+    color: rgb(249, 245, 245);
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .cta {
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .cta button {
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    padding: 1.5rem 3rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta button:hover {
+    background-color: #FFF;
+    color: #333;
+  }
+  
